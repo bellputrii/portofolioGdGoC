@@ -1,0 +1,9 @@
+1. Duplikat file '.env.example' lalu ubah namanya menjadi '.env'.
+2. Atur konfigurasi koneksi database di file '.env'.
+3. Jalankan 'composer install'.
+4. Jalankan 'php artisan key:generate'.
+5. Jalankan 'php artisan migrate'.
+7. Jalankan 'php artisan storage:link'.
+8. Ubah konfigurasi FILESYSTEM_DISK di file .env. Berikut kode nya, FILESYSTEM_DISK=public
+9. Jalankan 'composer require intervention/image'.
+10. Buatlah folder original, square, dan thumbnail di direktori public\storage\images\users\ .
